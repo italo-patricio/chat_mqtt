@@ -1,16 +1,9 @@
-import 'dart:convert';
-
-import 'package:chat_mqtt/extensions.dart';
-import 'package:chat_mqtt/models/enums/message_item_status.dart';
-import 'package:chat_mqtt/models/enums/message_item_type.dart';
 import 'package:chat_mqtt/pages/message/message_controller.dart';
-import 'package:chat_mqtt/pages/message_list/message_list_controller.dart';
-import 'package:chat_mqtt/services/mqtt_service.dart';
 import 'package:chat_mqtt/pages/message/message_page.dart';
+import 'package:chat_mqtt/pages/message_list/message_list_controller.dart';
 import 'package:chat_mqtt/pages/message_list/message_list_page.dart';
-import 'package:flutter/foundation.dart';
+import 'package:chat_mqtt/services/mqtt_service.dart';
 import 'package:flutter/material.dart';
-import 'package:mqtt_client/mqtt_client.dart';
 import 'package:mqtt_client/mqtt_server_client.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -21,7 +14,7 @@ void main() async {
 
   MqttService mqttService = MqttServiceImpl(
       client: MqttServerClient(
-    'broker.emqx.io', // '192.168.100.90',
+    'broker.emqx.io',
     'flutter-client-mqtt',
   ));
 

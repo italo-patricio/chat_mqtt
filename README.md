@@ -1,16 +1,48 @@
-# chat_mqtt
+# Chat Flutter com MQTT
 
-A new Flutter project.
+Um aplicativo de chat simples desenvolvido em Flutter, utilizando o protocolo MQTT para comunicação entre clientes.
 
-## Getting Started
+## Pré-requisitos
 
-This project is a starting point for a Flutter application.
+Certifique-se de ter os seguintes softwares instalados antes de executar o aplicativo:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- MQTT Broker (por exemplo, Mosquitto): [Mosquitto Installation Guide](https://mosquitto.org/download/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Configuração
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/italo-patricio/chat_mqtt.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd chat_mqtt
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   flutter pub get
+   ```
+
+## Execução
+
+Em seguida, execute o aplicativo:
+
+```bash
+flutter run
+```
+
+O aplicativo será iniciado no seu dispositivo ou emulador Flutter.
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir para o desenvolvimento deste projeto. Envie pull requests ou abra issues para relatar problemas ou sugerir melhorias.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
